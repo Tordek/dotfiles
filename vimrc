@@ -170,12 +170,12 @@ inoremap { {}<Left>
 inoremap {<CR> {<CR>}<ESC>k$a<CR>
 inoremap } <c-r>=ClosePair('}')<CR>
 
-inoremap \" <c-r>=QuoteDelim('"')<CR>
+inoremap " <c-r>=QuoteDelim('"')<CR>
 inoremap ' <c-r>=QuoteDelim("'")<CR>
 
 "Exceptions
 autocmd Syntax lisp inoremap ' '
-autocmd Syntax vim inoremap \" \"
+"autocmd Syntax vim inoremap \" \"
 
 function ClosePair(char)
 	if getline('.')[col('.') - 1] == a:char

@@ -15,14 +15,14 @@ unsetopt autocd correctall cdablevars
 export VISUAL=vim
 export EDITOR=vim
 
-alias git=git-achievements
-alias gad=git add
-alias gsta=git status
-alias gci=git commit
-alias gdf=git diff
-alias gst=git stash -k
-alias gffs=git flow feature start
-alias gfff=git flow feature finish
+alias git="git-achievements"
+alias gad="git add"
+alias gsta="git status"
+alias gci="git commit"
+alias gdf="git diff"
+alias gsh="git stash -k"
+alias gffs="git flow feature start"
+alias gfff="git flow feature finish"
 
 
 fortune
